@@ -1,8 +1,10 @@
 # make-it-skim
 
-Structure any writing so a skimming reader still gets the full message.
+Reformat any writing so a skimming reader still gets the full message, without changing what it says.
 
-People do not read on screens. They scan. This skill restructures anything your agent writes (emails, docs, posts, reports, UI copy) so the skimmer gets the point, the facts, and the ask anyway.
+People do not read on screens. They scan. This skill takes finished text (an email, a doc, a post, a report, UI copy) and breaks the wall apart: short paragraphs, bullets where the text already lists something, bold on the numbers and names, a block quote for the one line that must be seen, white space between ideas. Same words, same facts, same order. Just readable at a skim.
+
+It stands alone. No other skill is required to use it.
 
 ## Before and after
 
@@ -10,59 +12,49 @@ People do not read on screens. They scan. This skill restructures anything your 
 
 > Hi team, I wanted to give everyone a quick update on where we landed with the pricing review this week. After a lot of discussion with finance and a careful look at the churn numbers from last quarter, we have decided that we are going to hold current prices through the end of the quarter and revisit in January, and in the meantime Kapehe is going to pull the retention numbers for the top twenty accounts so we can see whether the discount cohort is actually behaving differently, and if anyone has concerns about specific accounts please let me know before Friday so we can factor them in.
 
-**After (make-it-skim):**
+**After (make-it-skim, same content, formatted):**
 
-> **Decision: prices stay as they are through the end of the quarter.** We revisit in January.
+> Hi team, a quick update on where we landed with the **pricing review** this week.
 >
-> Why:
-> - Finance signed off after reviewing last quarter's churn numbers.
-> - No evidence yet that discounts change retention.
+> After a lot of discussion with **finance** and a careful look at the **churn numbers from last quarter**, we are going to **hold current prices through the end of the quarter** and **revisit in January**.
 >
-> Next steps:
-> - **Kapehe** pulls retention numbers for the **top 20 accounts** this week.
-> - Concerns about a specific account: send them to me **before Friday**.
+> - **Kapehe** will pull the retention numbers for the **top 20 accounts**, so we can see whether the discount cohort is actually behaving differently
+> - Concerns about specific accounts: please let me know **before Friday**, so we can factor them in
 
-Same facts. The second version survives a skim.
+Nothing was added, summarized, or put into new sections. Same sentences, broken apart, with the numbers, names, and the deadline bolded so a scanner lands on them. Read only the bold words and you still get the whole email.
 
-## Why: the research
+## The research
 
 Built on Nielsen Norman Group eyetracking research, running since 1997:
 
 - **79% of readers scan** a new page. **16% read word by word.** (Morkes and Nielsen, 1997)
-- The same content, five ways: **concise +58%**, **scannable layout +47%**, **objective language +27%** on measured usability. **All three: +124%.**
-- Readers follow four scanning patterns: **F-pattern** (the failure mode a wall of text forces), **spotted** (eyes land on bold words, numbers, names), **layer-cake** (scan the headings, dive where relevant; the goal), and **commitment** (rare, and even committed readers do better with chunking).
+- The same content, five ways: a **scannable layout alone scored +47%** on measured usability. The facts did not change. The formatting did.
+- Readers follow four scanning patterns: **F-pattern** (the failure mode a wall of text forces), **spotted** (eyes land on bold words, numbers, names, lists, block quotes), **layer-cake** (scan the headings of a longer piece, dive where relevant), and **commitment** (rare, and even committed readers do better with chunking).
 
-## Where it fits
+## The formatting moves (short version)
 
-The AI writing stack has three layers:
+1. Break the wall. Max three short sentences per paragraph, one idea each, blank line between.
+2. Surface the main point in the author's own words. Move the line that is already there to the top, or block quote it. Never write a new headline or summary.
+3. Bullets where the text already lists something hiding in a comma chain. Numbered only when order matters.
+4. Front-load every bullet with its point, in the author's words.
+5. Bold anchors only: numbers, names, dates, deadlines, one key phrase per block.
+6. Block quote the one line that must be seen. One per piece, at most.
+7. Label real parts only, with words from the text itself. Short pieces get no labels. Never invent a section and fill it.
+8. Questions on their own lines, in the author's exact words.
+9. White space is structure.
+10. End on the author's ask if there is one, on its own line. If there is no ask, invent none.
 
-1. **unslop** cleans the words.
-2. **humanizer** fixes the voice.
-3. **make-it-skim** fixes the structure.
+## The tests
 
-The first two make AI writing sound human. This one makes it readable by one.
+Every output gets three checks:
 
-## The rules (short version)
+1. **Skim test:** the first line, the bold anchors, any block quote, and the first three words of every bullet carry the full message.
+2. **Difference test:** every fact in the after traces to a line in the before, at the same strength, and every fact that mattered in the before is still there. A discussion is not an approval. A plan to check is not a finding.
+3. **Leave-alone test:** if the original already skims well, it comes back unchanged.
 
-1. Hook line first. The point stands alone at the top.
-2. One idea per line or paragraph.
-3. Signpost every section with a descriptive heading or bold lead.
-4. Lists over prose.
-5. Front-load every bullet. Never repeat bullet openings.
-6. Bold anchors only: numbers, names, dates, the key phrase.
-7. Numbers beat adjectives.
-8. White space is structure.
-9. Questions get their own lines.
-10. The ask closes, on its own line.
+## Pairs well with (optional)
 
-## The Skim Test
-
-Every output ends with two checks:
-
-1. **Layer-cake test:** the headings alone tell the whole story.
-2. **Skim test:** the hook, the bold anchors, the first three words of every bullet, and the closing line carry the full message.
-
-If the fragments do not carry it, the skill rewrites until they do.
+If you also use a skill that cleans up the sentences themselves, run that first and make-it-skim last, because formatting goes on finished sentences. The stack Chris uses is in the launch post. None of it is a requirement for this skill.
 
 ## Install
 
