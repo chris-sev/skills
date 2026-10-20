@@ -1,8 +1,8 @@
 # make-it-skim
 
-Reformat any writing so a skimming reader still gets the full message, without changing what it says.
+Reformat and lightly edit any writing so a skimming reader still gets the full message, without changing its facts or meaning.
 
-People do not read on screens. They scan. This skill takes finished text (an email, a doc, a post, a report, UI copy) and breaks the wall apart: short paragraphs, bullets where the text already lists something, bold on the numbers and names, a block quote for the one line that must be seen, white space between ideas. Same words, same facts, same order. Just readable at a skim.
+People do not read on screens. They scan. This skill takes finished text (an email, a doc, a post, a report, UI copy) and breaks the wall apart: short paragraphs, bullets where the text already lists something, bold on the numbers and names, a block quote for the one line that must be seen, white space between ideas. Same facts, same meaning, same order. Just readable at a skim.
 
 It stands alone. No other skill is required to use it.
 
@@ -21,7 +21,7 @@ It stands alone. No other skill is required to use it.
 > - **Kapehe** will pull the retention numbers for the **top 20 accounts**, so we can see whether the discount cohort is actually behaving differently
 > - Concerns about specific accounts: please let me know **before Friday**, so we can factor them in
 
-Nothing was added, summarized, or put into new sections. Same sentences, broken apart, with the numbers, names, and the deadline bolded so a scanner lands on them. Read only the bold words and you still get the whole email.
+Nothing was added or summarized. The sentences were broken apart and tightened lightly, with the numbers, names, and the deadline bolded so a scanner lands on them. Read only the bold words and you still get the whole email.
 
 ## The research
 
@@ -34,12 +34,12 @@ Built on Nielsen Norman Group eyetracking research, running since 1997:
 ## The formatting moves (short version)
 
 1. Break the wall. Max three short sentences per paragraph, one idea each, blank line between.
-2. Surface the main point in the author's own words. Move the line that is already there to the top, or block quote it. Never write a new headline or summary.
+2. Surface the main point. Move the line that is already there to the top, or block quote it. A light rewording is fine if it says exactly the same thing; never summarize away a fact.
 3. Bullets where the text already lists something hiding in a comma chain. Numbered only when order matters.
 4. Front-load every bullet with its point, in the author's words.
 5. Bold anchors only: numbers, names, dates, deadlines, one key phrase per block.
 6. Block quote the one line that must be seen. One per piece, at most.
-7. Label real parts only, with words from the text itself. Short pieces get no labels. Never invent a section and fill it.
+7. Label the parts to help the scan, in the author's terms or a plain label you coin. A label names content already there; never invent a section and fill it. Short pieces usually need no labels.
 8. Questions on their own lines, in the author's exact words.
 9. White space is structure.
 10. End on the author's ask if there is one, on its own line. If there is no ask, invent none.
@@ -54,7 +54,7 @@ Every output gets three checks:
 
 ## Pairs well with (optional)
 
-If you also use a skill that cleans up the sentences themselves, run that first and make-it-skim last, because formatting goes on finished sentences. The stack Chris uses is in the launch post. None of it is a requirement for this skill.
+If you also use a skill that cleans up the sentences themselves, run that first and make-it-skim last, because the skim pass works best on near-final text. The stack Chris uses is in the launch post. None of it is a requirement for this skill.
 
 ## Install
 

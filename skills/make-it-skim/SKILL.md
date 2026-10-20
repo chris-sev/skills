@@ -1,20 +1,20 @@
 ---
 name: make-it-skim
-description: Reformat any human-facing writing so a skimming reader still gets the full message, without changing what it says. Breaks walls of text into short paragraphs, bullets, bold anchors, block quotes, and white space. Based on Nielsen Norman Group eyetracking research on how people read on screens. Stand-alone: use it on any email, message, doc, post, or UI copy, by itself or after any other editing.
+description: Reformat and lightly edit any human-facing writing so a skimming reader still gets the full message, without changing its facts or meaning. Breaks walls of text into short paragraphs, bullets, bold anchors, block quotes, and white space. Based on Nielsen Norman Group eyetracking research on how people read on screens. Stand-alone: use it on any email, message, doc, post, or UI copy, by itself or after any other editing.
 ---
 
 # Make It Skim
 
 ## What this skill does
 
-It changes how a piece of writing **looks on the page**. It does not change what the writing says.
+It changes how a piece of writing **looks on the page**, and it may polish the surface of its sentences. It does not change what the writing says: not its facts, not their strength, not the author's position.
 
-You take the text as given: its facts, its order, its voice, its parts. You break it apart and format it so a reader who only skims still lands on the point, the numbers, and the ask if there is one.
+You take the text as given: its facts, its order, its voice, its parts. You break it apart and format it so a reader who only skims still lands on the point, the numbers, and the ask if there is one. You may also lightly edit as you go: tighten a wordy sentence, split a long one, swap a clunky word for a plainer one, smooth a join between sentences. An edit is allowed only when every fact survives at the same strength.
 
 That is the whole job:
 
 - No new facts, reasons, examples, or conclusions.
-- No new sections, and no sections you have to fill in.
+- No sections invented as containers to fill. A label that names content already there is formatting, not a new section.
 - No summary written for the author.
 - No ask invented for the ending.
 
@@ -34,7 +34,7 @@ The patterns explain the formatting moves below:
 
 - **F-pattern (the failure mode).** Readers skim the top lines, then scan down the left edge, reading less of each line. It appears when text has no formatting: no bolding, no bullets, no breaks. A wall of text forces it, and readers miss chunks without knowing they missed them.
 - **Spotted pattern (anchors work).** Readers fixate on things that look different: bold words, digits, lists, block quotes, and words that match what they are hunting for. Numbers, names, and dates are natural anchors.
-- **Layer-cake pattern (for longer pieces).** Readers scan the headings, then dive into the text under the heading that looks relevant. It only works when a longer piece has real parts, and the headings describe those parts in the author's own terms.
+- **Layer-cake pattern (for longer pieces).** Readers scan the headings, then dive into the text under the heading that looks relevant. It only works when a longer piece has real parts, and the headings describe those parts plainly.
 - **Commitment pattern (the exception).** Motivated readers sometimes read almost everything. Even they do better when the text is broken into chunks. Never use this as an excuse for a wall of text.
 
 ## The formatting moves
@@ -42,12 +42,12 @@ The patterns explain the formatting moves below:
 Use only the moves the text in front of you needs. A short message may need one move. A long doc may need all of them.
 
 1. **Break the wall.** Split any paragraph longer than three short sentences. One idea per paragraph. Put a blank line between paragraphs. A second idea buried mid-paragraph is invisible to a scanner, so give it its own paragraph, in the author's words.
-2. **Surface the main point, in the author's words.** If the most important line is buried in the middle, move that line, or the sentence that carries it, to the top, or set it as a block quote. Do not write a new headline for it and do not summarize it. Use the line that is already there.
+2. **Surface the main point.** If the most important line is buried in the middle, move that line, or the sentence that carries it, to the top, or set it as a block quote. Prefer the author's own line. A light rewording is fine when it says exactly the same thing; a summary that drops or softens a fact is not.
 3. **Lists where the text already lists.** If the author names stats, steps, options, reasons, or items in a comma chain inside a sentence, turn that chain into bullets. Number the list only when the order matters, as with steps. Keep the author's items, in the author's order. Do not group them under a category the author did not use.
 4. **Front-load each bullet.** Put the point of the item in its first three words, using the author's words first. Do not open consecutive bullets with the same words: readers bypass repeated openings and skip those items.
 5. **Bold anchors only.** Bold the numbers, names, dates, and deadlines that are already in the text, plus at most one key phrase per block. Bold is what the spotted pattern lands on. If everything is bold, nothing is.
 6. **Block quote the one line that must be seen.** Use a block quote for an actual quote, or for the single decision or key line in the piece, in formats that render quotes. One block quote per piece at most. It is a spotlight, not a container for a section.
-7. **Label real parts only.** If a longer piece already has parts, you may label each part with a short, descriptive label taken from the text of that part. If the piece is short, or has one part, use no labels at all. Never invent a label like Why, Background, or Next steps and then fill it. A label describes text that exists. It never creates text.
+7. **Label the parts to help the scan.** When a piece has real parts, label them with a short, descriptive label, in the author's terms or a plain one you coin (Why I'm writing, What changed, Next steps) when it makes the sections easier to scan. A label names content that is already there. It must never add a claim, a reason, a deadline, or an ask the text does not contain, and it is never an excuse to write new content under it. If a part does not exist, do not label it into existence. Short pieces with one part usually need no labels.
 8. **Questions on their own lines.** Pull any question that sits inside a paragraph onto its own line. One question per line, numbered when there is more than one. Use the author's exact question.
 9. **White space is structure.** A blank line between blocks is a signpost by itself. Dense text reads as effort, and effort gets skipped.
 10. **End on the author's ask, if there is one.** If the text already contains an ask, pull it onto its own line at the end, in the author's words, so it is findable in under two seconds. If there is no ask, end on the author's last point. Do not invent an ask to close with.
@@ -64,14 +64,14 @@ Use only the moves the text in front of you needs. A short message may need one 
 Before you hand the text back, run all three:
 
 1. **Skim test.** Read only the first line, the bold anchors, any block quote, and the first three words of every bullet. Those fragments should carry the full message. If the point lives somewhere a scanner will not land, move the author's own line or bold the author's own words until it does.
-2. **Difference test.** Compare the before and after side by side. Every fact in the after must trace to a line in the before. Every fact that mattered in the before must still be in the after, with the same strength: a discussion is not an approval, a plan to check is not a finding. No new label, section, or closing line may imply content that is not there. If the difference test finds an addition, remove it.
+2. **Difference test.** Compare the before and after side by side. Every fact in the after must trace to a line in the before. Every fact that mattered in the before must still be in the after, with the same strength: a discussion is not an approval, a plan to check is not a finding. No label, section, or closing line may imply content that is not there. If the difference test finds an addition, remove it.
 3. **Leave-alone test.** Ask whether the original already passed the skim test. If it did, return it unchanged.
 
 ## What this is not
 
-- Not a writing skill. It does not fix sentences, voice, or word choice. It formats finished text.
-- Not a summary. Nothing gets compressed into new words. The author's facts, caveats, and numbers all stay.
-- Not a template. There is no set of sections every piece must have. Most pieces need no sections at all.
+- Not a rewrite. It does not restructure an argument, change the author's position, or write new content. Edits stay at the sentence surface: tighten, split, reword lightly.
+- Not a summary. Nothing gets compressed in a way that drops facts or caveats. The author's facts, caveats, and numbers all stay.
+- Not a template. There is no set of sections every piece must have. Most pieces need no sections at all, and labels only ever name parts that already exist.
 - Not for code, data tables, or machine-facing text.
 
 ## Sources
