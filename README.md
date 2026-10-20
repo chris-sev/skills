@@ -8,7 +8,7 @@ People do not read on screens. They scan. This skill restructures anything your 
 
 **Before (clean sentences, still a wall):**
 
-> Hi team, I wanted to give everyone a quick update on where we landed with the pricing review this week. After a lot of discussion with finance and a careful look at the churn numbers from last quarter, we have decided that we are going to hold current prices through the end of the quarter and revisit in January, and in the meantime Sara is going to pull the retention numbers for the top twenty accounts so we can see whether the discount cohort is actually behaving differently, and if anyone has concerns about specific accounts please let me know before Friday so we can factor them in.
+> Hi team, I wanted to give everyone a quick update on where we landed with the pricing review this week. After a lot of discussion with finance and a careful look at the churn numbers from last quarter, we have decided that we are going to hold current prices through the end of the quarter and revisit in January, and in the meantime Kapehe is going to pull the retention numbers for the top twenty accounts so we can see whether the discount cohort is actually behaving differently, and if anyone has concerns about specific accounts please let me know before Friday so we can factor them in.
 
 **After (make-it-skim):**
 
@@ -19,7 +19,7 @@ People do not read on screens. They scan. This skill restructures anything your 
 > - No evidence yet that discounts change retention.
 >
 > Next steps:
-> - **Sara** pulls retention numbers for the **top 20 accounts** this week.
+> - **Kapehe** pulls retention numbers for the **top 20 accounts** this week.
 > - Concerns about a specific account: send them to me **before Friday**.
 
 Same facts. The second version survives a skim.
