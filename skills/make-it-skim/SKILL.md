@@ -58,6 +58,17 @@ Use only the moves the text in front of you needs. A short message may need one 
 - **Narrative text (a story, a post with a flow):** paragraph breaks, white space, and bold anchors only. Do not bullet a story, do not label its parts, do not pull its ending to the top.
 - **Long structured text (a doc, a report, a long email):** the full set of moves, including labels for parts that already exist.
 - **Already skimmable text:** leave it alone. Say it already passes and change nothing. Reformatting good text is damage.
+- **Plain-text destinations (some email clients, SMS):** bold, bullets, and block quotes may vanish or arrive as raw characters. Lean on paragraph breaks and white space there. They survive everywhere.
+
+## Leave these alone
+
+Some writing is not written to be skimmed, and formatting it for the skim does damage:
+
+- **Bad news and condolences.** Layoffs, rejections, apologies, grief. The reader needs the writer's words in the writer's order. A skim-formatted apology reads as cold.
+- **Negotiation and persuasion.** Where the order and the build are the argument, pulling one line to the top can give away the close.
+- **Writing where tone is the message.** If how it feels matters more than what it says, leave the shape alone.
+
+For these, do at most one thing: break a paragraph so dense it hides the words. Nothing else.
 
 ## The tests
 
@@ -71,6 +82,7 @@ Before you hand the text back, run all three:
 
 - Not a rewrite. It does not restructure an argument, change the author's position, or write new content. Edits stay at the sentence surface: tighten, split, reword lightly.
 - Not a summary. Nothing gets compressed in a way that drops facts or caveats. The author's facts, caveats, and numbers all stay.
+- Not a shortening. Skim restructures length, it never reduces it. If a piece is simply too long, say so plainly and leave the cutting to the author. A reformatted wall is still a wall.
 - Not a template. There is no set of sections every piece must have. Most pieces need no sections at all, and labels only ever name parts that already exist.
 - Not for code, data tables, or machine-facing text.
 
