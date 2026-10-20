@@ -82,7 +82,7 @@ Before you hand the text back, run all three:
 
 - Not a rewrite. It does not restructure an argument, change the author's position, or write new content. Edits stay at the sentence surface: tighten, split, reword lightly.
 - Not a summary. Nothing gets compressed in a way that drops facts or caveats. The author's facts, caveats, and numbers all stay.
-- Not a shortening. Skim restructures length, it never reduces it. If a piece is simply too long, say so plainly and leave the cutting to the author. A reformatted wall is still a wall.
+- Not a condenser. Skim never reduces the number of points: every distinct point in the original stays. It may cut sentences that carry nothing new (restatements, throat-clearing, chatbot wrappers, filler), because those are noise, not information. If everything in the piece matters and it is simply too long, say so plainly and leave the cutting to the author. A reformatted wall is still a wall.
 - Not a template. There is no set of sections every piece must have. Most pieces need no sections at all, and labels only ever name parts that already exist.
 - Not for code, data tables, or machine-facing text.
 
